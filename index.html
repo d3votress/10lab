@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>Lab 10</title>
+  <meta charset="utf-8" />
+  <title>Lab 10 — App 2</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.2.0/ethers.umd.min.js"></script>
 </head>
 <body>
-  <h1>Подключение MetaMask</h1>
-  <button id="connectButton">Подключить кошелек</button>
-  <div id="accountInfo"></div>
+  <h1>Web-приложение 2: контракт в Sepolia</h1>
+
+  <button id="connectBtn">Подключить MetaMask</button>
+  <div id="status"></div>
+
+  <hr>
+
+  <input id="messageInput" type="text" placeholder="Введите сообщение">
+  <button id="setBtn">Установить сообщение (setMessage)</button>
+  <button id="getBtn">Получить сообщение (getMessage)</button>
+
+  <p>Текущее сообщение: <b><span id="messageOut">—</span></b></p>
 
   <script src="script.js"></script>
 </body>
