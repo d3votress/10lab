@@ -6,7 +6,7 @@ const connectBtn = document.getElementById('connectBtn');
 const setBtn = document.getElementById('setBtn');
 const getBtn = document.getElementById('getBtn');
 
-const contractAddress = '0xCC978e213c9D683bB7141B871000a460892dA6b4';
+const contractAddress = '0x2F6e08dcA8b43D73a7B9A096176d6a84481299cd';
 
 // ABI под функции setMessage/getMessage
 const contractAbi = [
